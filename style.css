@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    background-color: black;
+}
+a{
+    color: black;
+    margin-left: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 29px;
+    border: 2px solid rgb(168, 13, 13);
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: white;
+  
+}
+a:hover {
+    background-color: #f0f0f0;
+    color: black;
+    transition: background-color 0.3s ease;
+    background-color: white;
+    color: brown;
+}
+.imag-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+}
+.imag-container img {
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.matter-container-1 {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.matter-container-2 {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.matter-container-3 {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.my-container {
+    display: flex;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 5%;
+    
+    
+}
+.my-container>div{
+    width: 23%;
+    height: 20px;
+    margin-bottom: 100px;
+}
